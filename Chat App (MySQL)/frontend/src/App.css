@@ -1,0 +1,380 @@
+label {
+  font-weight: 600;
+}
+
+/* Navbar */
+#nav-head {
+  color: rgb(8, 6, 6);
+  text-decoration: none;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #d38622, #858e1c, #4bd79f);
+}
+
+.nav-link:hover {
+  color: rgb(247, 62, 62);
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav-link.active-link {
+  color: hsl(209, 94%, 44%);
+  /* Color when the link is active */
+}
+
+#profile-photo {
+  width: 15px;
+  height: 15px;
+  margin-top: -3.3px;
+  margin-right: 2px;
+}
+
+/* Navbar */
+
+/* sign-up */
+#sign-up-form {
+  width: 40%;
+  height: 520px;
+  margin: 30px auto;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sign-up-form form {
+  width: 85%;
+  margin: 4% auto;
+}
+
+#sign-up-form button {
+  margin-top: 8px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+#sign-up-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+/* sign-up */
+
+/* sign-in */
+#sign-in-form {
+  width: 40%;
+  height: 350px;
+  margin: 100px auto;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sign-in-form form {
+  width: 85%;
+  margin: 7% auto;
+}
+
+#sign-in-form button {
+  margin-top: 15px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+#sign-in-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+#forgot-password {
+  font-weight: 600;
+}
+
+/* sign-in */
+
+/* reset-password-link */
+#reset-password-link-parent {
+  width: 100%;
+  height: 90.8vh;
+  display: flow-root;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+#password-link {
+  width: 100%;
+}
+
+#reset-password-link-form {
+  width: 40%;
+  height: 250px;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#reset-password-link-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+#reset-password-link-form form {
+  width: 85%;
+  margin: 10% auto;
+}
+
+#reset-password-link-form button {
+  margin-top: 13px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+/* reset-password-link */
+
+/* reset-password */
+#Reset-password-parent {
+  width: 100%;
+  height: 90.8vh;
+  display: flow-root;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+#reset-password-form {
+  width: 40%;
+  height: 310px;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#reset-password-form form {
+  width: 85%;
+  margin: 8% auto;
+}
+
+#reset-password-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+#reset-password-form button {
+  margin-top: 13px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+/* reset-password */
+
+/* profile */
+
+#parent {
+  display: flex;
+  width: 100%;
+  height: 582px;
+  margin: auto;
+  border: 1px solid white;
+}
+
+#left-side {
+  width: 30%;
+}
+
+#group-lists {
+  height: 520px;
+  border: 1px solid rgb(31, 30, 30);
+  overflow: auto;
+}
+
+#create-group {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border: 1px solid rgb(31, 30, 30);
+}
+
+#create-group form {
+  display: flex;
+  gap: 0.5%;
+  height: 100%;
+  width: 100%;
+}
+
+#create-group #one {
+  width: 74.5%;
+  height: 100%;
+  outline: none;
+}
+
+#create-group #two {
+  width: 25%;
+  height: 100%;
+  background-color: coral;
+  color: white;
+  border: none;
+}
+
+#right-side {
+  width: 70%;
+  border: 1px solid rgb(232, 219, 219);
+}
+
+#msg-form {
+  width: 100%;
+  height: 10.5%;
+  margin-top: 0.3%;
+  border: 1px solid white;
+}
+
+#msg-form form {
+  display: flex;
+  gap: 0.5%;
+  width: 100%;
+  height: 100%;
+}
+
+#msg-form textarea {
+  width: 89%;
+  height: 100%;
+  outline: none;
+}
+
+#msg-form input {
+  width: 10%;
+  height: 100%;
+  background-color: teal;
+  border: none;
+  color: white;
+}
+
+#messages {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow: auto;
+  height: 81%;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-image: url("https://i.pinimg.com/originals/e8/d9/4e/e8d94e1e8b6b530ad315e9385290141b.jpg"); /* Path to your background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+#right-side .receiver {
+  width: 40%;
+}
+
+#right-side .sender {
+  width: 40%;
+}
+
+.s {
+  align-self: flex-end;
+  color: green;
+  font-weight: 600;
+}
+
+.r {
+  align-self: flex-start;
+  color: grey;
+  font-weight: 600;
+}
+
+#right-side h4 {
+  margin-left: 2%;
+}
+
+/* profile */
+
+.sender {
+  align-self: flex-end;
+  /* Aligns the sender's message to the right */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* WhatsApp light green color */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px 20px 0 20px;
+  max-width: 60%;
+  margin: 5px 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+}
+
+.receiver {
+  align-self: flex-start;
+  /* Aligns the receiver's message to the left */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* White background color */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px 20px 20px 0;
+  max-width: 60%;
+  margin: 5px 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+}
+
+.sender h4,
+.receiver h4 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.groupnames {
+  display: flex;
+  height: 47px;
+  align-items: center;
+  justify-content: center;
+}
+
+.groupnames > button {
+  width: 100%;
+  height: 47px;
+  color: white;
+  border: none;
+  background-color: rgb(240, 139, 102);
+}
+
+#add-members {
+  display: flex;
+  width: 100%;
+  background-color: rgb(240, 139, 102);
+}
+#add-members .btn-primary {
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(240, 139, 102);
+  border: none;
+}
+
+.join-members {
+  display: flex;
+  width: 100%;
+  gap: 40%;
+}
+.join-members > button,
+.join-members > h6 {
+  width: 50%;
+  border: 1px solid white;
+}
+.join-members > button {
+  background-color: teal;
+  padding: 5px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.joined {
+  background-color: coral;
+  padding: 5px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
