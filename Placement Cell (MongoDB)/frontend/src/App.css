@@ -1,0 +1,546 @@
+/* Navbar */
+#nav-head {
+  color: rgb(8, 6, 6);
+  text-decoration: none;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #d38622, #858e1c, #4bd79f);
+}
+
+.nav-link:hover {
+  color: rgb(247, 62, 62);
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav-link.active-link {
+  color: hsl(209, 94%, 44%);
+  /* Color when the link is active */
+}
+
+#profile-photo {
+  width: 15px;
+  height: 15px;
+  margin-top: -3.3px;
+  margin-right: 2px;
+}
+
+/* Navbar */
+
+/* sign-in */
+
+#sign-in-form {
+  width: 40%;
+  height: 350px;
+  margin: 100px auto;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sign-in-form form {
+  width: 85%;
+  margin: 7% auto;
+}
+
+#sign-in-form button {
+  margin-top: 15px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+#sign-in-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+#forgot-password {
+  font-weight: 600;
+}
+
+/* sign-in */
+
+/* sign-up */
+#sign-up-form {
+  width: 40%;
+  height: 520px;
+  margin: 30px auto;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sign-up-form form {
+  width: 85%;
+  margin: 4% auto;
+}
+
+#sign-up-form button {
+  margin-top: 8px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+#sign-up-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+/* sign-up */
+
+/* reset-password-link */
+#reset-password-link-parent {
+  width: 100%;
+  height: 90.8vh;
+  display: flow-root;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+#password-link {
+  width: 100%;
+}
+
+#reset-password-link-form {
+  width: 40%;
+  height: 250px;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#reset-password-link-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+#reset-password-link-form form {
+  width: 85%;
+  margin: 10% auto;
+}
+
+#reset-password-link-form button {
+  margin-top: 13px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+/* reset-password-link */
+
+/* reset-password */
+#Reset-password-parent {
+  width: 100%;
+  height: 90.8vh;
+  display: flow-root;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+#reset-password-form {
+  width: 40%;
+  height: 310px;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#reset-password-form form {
+  width: 85%;
+  margin: 8% auto;
+}
+
+#reset-password-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+#reset-password-form button {
+  margin-top: 13px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+/* reset-password */
+
+#profile-page {
+  display: flex;
+}
+
+/* student form css */
+#student-body {
+  width: 100%;
+  height: 90.8vh;
+  display: flex;
+}
+
+#student-parent {
+  display: flex;
+  width: 50%;
+  height: 540px;
+  margin: 20px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#student-parent form {
+  width: 85%;
+  margin: auto;
+  margin-top: -20px;
+}
+
+#student-parent input,
+#student-parent select {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+#student-parent button {
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+#marks-lable {
+  display: flex;
+  gap: 5.3%;
+  margin-top: -15px;
+}
+
+#marks-lable label {
+  width: 29%;
+}
+
+#marks {
+  display: flex;
+  margin-top: -15px;
+  justify-content: space-between;
+}
+
+#marks input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+#marks input:last-child {
+  margin-right: 0;
+}
+
+#batplace {
+  display: flex;
+  justify-content: space-between;
+}
+
+#batplace > div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+#batplace > div:last-child {
+  margin-right: 0;
+}
+
+/* student form css */
+
+/* interview form css */
+#interview-body {
+  width: 100%;
+  height: 90.8vh;
+  display: flex;
+}
+
+#interview-parent {
+  width: 40%;
+  height: 300px;
+  margin: 100px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#interview-parent form {
+  width: 90%;
+  margin: auto;
+  margin-top: -13px;
+}
+
+#interview-parent input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+#interview-parent button {
+  margin-top: 10px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+/* interview form css */
+
+/* Profile Student */
+.accordion {
+  width: 42%;
+  margin: 20px auto;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+}
+
+.accordion-header {
+  background-color: #f2f2f2;
+}
+
+.accordion-button {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.accordion-body {
+  padding: 10px;
+  margin-left: 10%;
+}
+
+.student-item1,
+.student-item2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.student-item1 > div,
+.student-item2 > div {
+  flex: 1;
+  padding: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.edit,
+.delete {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.edit {
+  background-color: #4caf50;
+  color: white;
+}
+
+.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.student-result {
+  text-align: center;
+}
+
+.result-row {
+  margin-top: 20px;
+  display: flex;
+  gap: 20%;
+  margin-right: 10%;
+  font-weight: 600;
+}
+
+.result-col > div > div,
+.result-row > div {
+  width: 100%;
+}
+
+.result-col > div {
+  text-align: center;
+  display: flex;
+  gap: 20%;
+  margin-right: 10%;
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+  .result-col > div {
+    text-align: center;
+    display: flex;
+    gap: 2%;
+  }
+
+  .result-row {
+    margin-top: 20px;
+    display: flex;
+    gap: 1%;
+    font-weight: 600;
+  }
+
+  .accordion-button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .accordion-body {
+    text-align: center;
+  }
+
+  .student-item1,
+  .student-item2 {
+    display: block;
+    padding: 5px 0;
+  }
+
+  .student-item1 > div,
+  .student-item2 > div {
+    padding: 5px 0;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}
+/* Profile Student*/
+
+/* Profile Interview */
+.accordion h3 {
+  margin: 20px 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.accordion-item {
+  text-align: left;
+  border-top: 1px solid #ddd;
+}
+
+.accordion-item:first-child {
+  border-top: none;
+}
+
+.accordion-header {
+  background-color: #f9f9f9;
+}
+
+.accordion-button {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  font-size: 1rem;
+  background: #f9f9f9;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+.accordion-button:hover,
+.accordion-button:not(.collapsed) {
+  background: #e9e9e9;
+}
+
+.accordion-body {
+  padding: 15px;
+  background: #fff;
+}
+
+.inetrview-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.inetrview-item > div {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.student-enrollment-form {
+  margin-top: 20px;
+}
+
+.student-enrollment-form form {
+  display: flex;
+  border: 1px solid rgb(208, 199, 199);
+  height: 200px;
+  margin-right: 10%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.student-enrollment-form input,
+.student-enrollment-form select {
+  padding: 8px;
+  font-size: 1rem;
+  width: 100%;
+  margin: 3px auto;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.enroll-submit {
+  background-color: teal;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 1300px) {
+  .student-enrollment-form input,
+  .student-enrollment-form select {
+    font-size: 0.9rem;
+    padding: 8px;
+    width: 90%;
+  }
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+  .accordion-button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .inetrview-item {
+    display: block;
+    padding: 5px 0;
+  }
+
+  .inetrview-item > div {
+    padding: 5px 0;
+  }
+
+  .student-enrollment-form input,
+  .student-enrollment-form select {
+    font-size: 0.9rem;
+    padding: 8px;
+    width: 90%;
+  }
+}
+/* Profile Interview*/
+
+#placeholder {
+  color: grey;
+}
+
+#download {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20% auto;
+}
+#download button {
+  width: 15%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: teal;
+  color: white;
+  border: none;
+}
