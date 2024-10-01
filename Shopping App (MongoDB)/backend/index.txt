@@ -1,0 +1,74 @@
+  1. userController.js:-
+  
+  let payment = await razorpayInstance.orders.fetchPayments(orderId);
+  console.log(payment);
+
+{
+  entity: 'collection',
+  count: 1,
+  items: [
+    {
+      id: 'pay_P0gsy4NyM67Z2c',
+      entity: 'payment',
+      amount: 13000,
+      currency: 'INR',
+      status: 'failed',
+      order_id: 'order_P0gsJ0bhmUt1v0',
+      invoice_id: null,
+      international: false,
+      method: 'netbanking',
+      amount_refunded: 0,
+      refund_status: null,
+      captured: false,
+      description: null,
+      card_id: null,
+      bank: 'BARB_R',
+      wallet: null,
+      vpa: null,
+      email: 'tsaini@gmail.com',
+      contact: '+917062341182',
+      notes: [],
+      fee: null,
+      tax: null,
+      error_code: 'BAD_REQUEST_ERROR',
+      error_description: "Your payment didn't go through as it was declined by the bank. Try another payment method or contact your bank.",
+      error_source: 'bank',
+      error_step: 'payment_authorization',
+      error_reason: 'payment_failed',
+      acquirer_data: [Object],
+      created_at: 1727112593
+    }
+  ]
+}
+
+
+
+2. cartController:-
+let order = await razorpayInstance.orders.create({
+    amount: amount * 100,
+    currency: "INR",
+  });
+  console.log(order);
+{
+  amount: 43000,
+  amount_due: 43000,
+  amount_paid: 0,
+  attempts: 0,
+  created_at: 1727112885,
+  currency: 'INR',
+  entity: 'order',
+  id: 'order_P0gy6lLJz6fGvu',
+  notes: [],
+  offer_id: null,
+  receipt: null,
+  status: 'created'
+}
+
+
+
+
+
+
+
+
+ 

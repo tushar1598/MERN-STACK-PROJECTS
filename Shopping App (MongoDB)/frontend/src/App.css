@@ -1,0 +1,807 @@
+.profile-header img:hover {
+  filter: blur(1px); /* Adjust the blur value as needed */
+  transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+}
+
+/* Navbar */
+#nav-head {
+  color: rgb(8, 6, 6);
+  text-decoration: none;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #d38622, #858e1c, #4bd79f);
+}
+
+.nav-link:hover {
+  color: rgb(247, 62, 62);
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav-link.active-link {
+  color: hsl(209, 94%, 44%);
+  /* Color when the link is active */
+}
+
+#profile-photo {
+  width: 15px;
+  height: 15px;
+  margin-right: 2px;
+  border-radius: 5px;
+}
+
+.nav-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link.active-link {
+  color: #007bff; /* Style when the link is active */
+}
+
+.cart-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#cart {
+  position: relative;
+  right: 12px;
+}
+.cart-link img {
+  width: 22px;
+  height: 22px;
+}
+
+.cart-link i {
+  font-size: 18px;
+  margin-right: 10px; /* Space between icon and 'Cart' text */
+}
+
+.item-count {
+  position: absolute;
+  top: -5px;
+  right: -18px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 2px 6px;
+  display: inline-block;
+}
+
+/* Navbar */
+
+/* sign-in */
+
+#sign-in-form {
+  width: 40%;
+  height: 350px;
+  margin: 100px auto;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sign-in-form form {
+  width: 85%;
+  margin: 7% auto;
+}
+
+#sign-in-form button {
+  margin-top: 15px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+#sign-in-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+#forgot-password {
+  font-weight: 600;
+}
+
+/* sign-in */
+
+/* sign-up */
+#sign-up-form {
+  width: 40%;
+  height: 520px;
+  margin: 20px auto;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sign-up-form form {
+  width: 85%;
+  margin: 4% auto;
+}
+
+#sign-up-form button {
+  margin-top: 8px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+#sign-up-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+.password {
+  display: flex;
+  gap: 4%;
+}
+
+.password > div {
+  width: 48%;
+}
+
+/* sign-up */
+
+/* update */
+#sign-up-update-form {
+  width: 40%;
+  height: 450px;
+  margin: 60px auto;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sign-up-update-form form {
+  width: 80%;
+  margin: 4% auto;
+}
+
+#sign-up-update-form button {
+  margin-top: 8px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+#sign-up-update-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+.password {
+  display: flex;
+  gap: 4%;
+}
+
+.password > div {
+  width: 48%;
+}
+
+/* update */
+
+/* reset-password-link */
+#reset-password-link-parent {
+  width: 100%;
+  height: 90.8vh;
+  display: flow-root;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+#password-link {
+  width: 100%;
+}
+
+#reset-password-link-form {
+  width: 40%;
+  height: 250px;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#reset-password-link-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+#reset-password-link-form form {
+  width: 85%;
+  margin: 10% auto;
+}
+
+#reset-password-link-form button {
+  margin-top: 13px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+/* reset-password-link */
+
+/* reset-password */
+#Reset-password-parent {
+  width: 100%;
+  height: 90.8vh;
+  display: flow-root;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+#reset-password-form {
+  width: 40%;
+  height: 310px;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#reset-password-form form {
+  width: 85%;
+  margin: 8% auto;
+}
+
+#reset-password-form input {
+  background: none;
+  border: 1px solid rgb(139, 137, 137);
+}
+
+#reset-password-form button {
+  margin-top: 13px;
+  background-color: rgba(10, 47, 102, 0.596);
+  border: none;
+}
+
+/* reset-password */
+
+/* Profile */
+
+.carousel img {
+  height: 500px;
+}
+
+#info-bar {
+  width: 80%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+#info-bar div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 210px;
+}
+
+#info-bar img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+#info-bar h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#info-bar p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #info-bar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #info-bar div {
+    max-width: none;
+  }
+}
+
+@media (max-width: 480px) {
+  #info-bar img {
+    width: 40px;
+    height: 40px;
+  }
+
+  #info-bar h6 {
+    font-size: 14px;
+  }
+
+  #info-bar p {
+    font-size: 12px;
+  }
+}
+
+.item-card {
+  width: 24%;
+  height: 420px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid white;
+}
+
+.item-card:hover {
+  border-color: grey;
+}
+
+.item-card img,
+h6,
+p {
+  margin: 12px auto;
+}
+.item-card img {
+  width: 180px;
+  height: 200px;
+  margin-top: 25px;
+}
+.item-card p {
+  width: 85%;
+}
+
+.item-card p:hover {
+  color: orange;
+}
+
+.item-card h6:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.item-cart-hover:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  margin: auto;
+  width: 95%;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Optional for spacing between cards */
+  text-align: center;
+}
+
+.card-container > * {
+  flex-basis: 22%; /* Each card takes about 22% of the width */
+  max-width: 22%; /* Prevents cards from stretching too wide */
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  margin-bottom: 20px; /* Optional for spacing between rows */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .card-container > * {
+    flex-basis: 30%; /* Adjust for smaller screens */
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container > * {
+    flex-basis: 45%; /* For tablet screens */
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-container > * {
+    flex-basis: 100%; /* For small screens, show one card per row */
+    max-width: 100%;
+  }
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column; /* Stack items on smaller screens */
+  width: 90%;
+  margin: auto;
+  gap: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-details img {
+  width: 250px; /* Make image responsive */
+  max-width: 300px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.item-info {
+  flex-grow: 1;
+  position: relative; /* Relative position to anchor the buttons */
+}
+
+.item-info h6 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.item-info h6,
+.item-info p {
+  margin-bottom: 10px;
+}
+
+/* Responsive Buttons */
+.buttons {
+  position: static; /* Remove absolute positioning for better responsiveness */
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically on smaller screens */
+  gap: 15px;
+  margin-top: 20px;
+}
+.item-added {
+  background-color: coral;
+  border-radius: 10px;
+}
+.add-to-cart {
+  background-color: coral;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  /* Larger screens: make buttons inline */
+  .buttons {
+    flex-direction: row; /* Align buttons horizontally on wider screens */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    gap: 25px;
+  }
+}
+
+.add-to-cart,
+.buy-now,
+.item-added {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%; /* Make buttons full width on small screens */
+}
+
+@media (min-width: 768px) {
+  /* On wider screens, buttons will auto-adjust their width */
+  .add-to-cart,
+  .buy-now,
+  .item-added {
+    width: auto;
+  }
+}
+
+.add-to-cart {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-to-cart:hover {
+  background-color: #218838;
+}
+
+.item-added {
+  background-color: coral;
+  color: white;
+}
+
+.buy-now {
+  background-color: #007bff;
+  color: white;
+}
+
+.buy-now:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive layout for smaller screens */
+@media (min-width: 768px) {
+  .item-details {
+    flex-direction: row; /* Stack items side by side on larger screens */
+  }
+}
+
+/* Profile */
+
+.cart-item-added {
+  position: relative;
+  width: 150px;
+  top: 150px;
+  right: 30px;
+  background-color: coral;
+  border: none;
+  padding: 12px;
+  color: white;
+  border-radius: 5px;
+}
+@media (max-width: 767px) {
+  .cart-item-added {
+    top: 0;
+    right: inherit;
+    width: 100%;
+  }
+}
+
+#cart-item:hover {
+  border-color: grey;
+}
+
+/* cart-payment */
+
+#cart-checkout {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cart-checkout h4 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#cart-checkout h4 span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+#cart-checkout button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#cart-checkout button:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+  #cart-checkout {
+    max-width: 90%;
+  }
+
+  #cart-checkout h4 {
+    font-size: 1rem;
+  }
+
+  #cart-checkout button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+/* cart-payment */
+
+/* orders */
+
+.outer-order {
+  width: 90%;
+  margin: auto;
+}
+
+.order-item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-item-details img {
+  max-width: 100%;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.order-item-details h5 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.order-item-details p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+@media (min-width: 768px) {
+  .accordion-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .order-item-details {
+    flex: 1 1 calc(50% - 40px); /* Two items per row */
+  }
+}
+
+@media (min-width: 1024px) {
+  .order-item-details {
+    flex: 1 1 calc(33.33% - 40px); /* Three items per row */
+  }
+}
+
+@media (max-width: 576px) {
+  .order-item-details {
+    padding: 10px;
+  }
+
+  .order-item-details h5 {
+    font-size: 1rem;
+  }
+
+  .order-item-details p {
+    font-size: 0.9rem;
+  }
+}
+
+.accordion-header {
+  padding: 10px;
+}
+
+.accordion-header button {
+  display: flex;
+  justify-content: space-between; /* Evenly space the content */
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border: none; /* To remove the button's default border */
+}
+
+.accordion-header span {
+  font-size: 0.5rem;
+  margin: 0;
+  flex: 1; /* Ensure all spans take equal width */
+  text-align: center; /* Align text to the left inside each span */
+  padding: 0 10px; /* Add padding to create space between text and button edges */
+  display: block;
+  font-weight: normal;
+}
+
+/* Responsive Styles */
+@media (min-width: 700px) {
+  .accordion-header button {
+    padding: 15px;
+  }
+  .accordion-header span {
+    font-size: 0.9rem; /* Slightly larger font size on larger screens */
+  }
+}
+
+@media (max-width: 699px) {
+  .accordion-header {
+    padding: 8px;
+  }
+
+  .accordion-header button {
+    padding: 8px;
+    flex-direction: column; /* Stack content vertically on small screens */
+    align-items: flex-start;
+  }
+
+  .accordion-header span {
+    font-size: 1rem; /* Reduce font size for mobile */
+    padding: 5px 0; /* Add some space between vertical elements */
+  }
+}
+
+/* orders */
+
+/* Profile Page Real */
+/* styles/profile.css */
+
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-info h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.profile-info p {
+  color: #666;
+  margin-top: 5px;
+}
+
+.edit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design for smaller screens */
+@media screen and (max-width: 600px) {
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profile-info h2 {
+    font-size: 1.2rem;
+  }
+
+  .edit-btn {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Profile Page Real */
+
+.item-info h6:hover {
+  color: coral;
+}
+
+/* sort order */
+
+#sort-order {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* sort order */
