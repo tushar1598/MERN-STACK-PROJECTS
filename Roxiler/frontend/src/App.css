@@ -1,0 +1,40 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.month-selector {
+  margin: 20px 0;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.search-bar {
+  margin: 10px 0;
+}
+
+.pagination {
+  margin: 10px 0;
+}
+
+.statistics-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.bar-chart {
+  width: 80%;
+  margin: 0 auto;
+}
